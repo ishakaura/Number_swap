@@ -20,4 +20,14 @@ elif order=="b,c,a":
     numbers=num2,num3,num1
 elif order=="b,a,c":
     numbers=num2,num1,num3
-print(numbers)
+else:
+    print("Invalid order")
+print("After swapping:", numbers)
+#other solution
+#a = 10
+#b = 20
+#c = 30
+
+#a, b, c = c, a, b
+
+#print(a, b, c)
